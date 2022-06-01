@@ -1,6 +1,9 @@
-import getValue from './functon.js' // default
-import mapArray from './map.js' // default
+// import getValue from './functon.js' // default
+// import {mapArray} from './map.js' 
 
+// import {getValue, mapArray} from './methods.js'
+
+var getValue = require('./functon')
 
 let Students = [
     {name:'Humoyun', age:19, form: 11},
@@ -8,7 +11,7 @@ let Students = [
 ]
 
 
-console.log(Students[0])
-console.log(getValue(Students, 'age')) // 19,17
+// console.log(Students[0])
+console.log(getValue(Students, 'name')) // HUmoyun, Davrom
 
-console.log(mapArray(Students,'age'))
+// console.log(mapArray(Students,'age'))

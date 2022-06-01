@@ -6,4 +6,4 @@ function getValue(array, key){
     return res
 }
 
-export default getValue
+module.exports = getValue;

@@ -1,4 +1,4 @@
-function mapArray(array, key) {
+export function mapArray(array, key) {
     let result = {};
     for (let i = 0; i < array.length; i++) {
         result[array[i][key]] = array[i];
@@ -6,4 +6,4 @@ function mapArray(array, key) {
     return result;
 }
 
-export default mapArray
+// export default mapArray
