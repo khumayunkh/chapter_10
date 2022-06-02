@@ -90,6 +90,39 @@ h1{
     color:rgb(22, 63, 198);
 }
 
+.footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 700px;
+}
+.footer_in{
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_in p {
+    color: silver;
+}
+.logo{
+    display: flex;
+    color: white;
+}
+.logo img{
+    width:50px;
+    height: 50px;
+}
+
+.social{
+    display: flex;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+
 @media(max-width:1500px){
     h1{
         font-size: 35px;
@@ -103,6 +136,18 @@ h1{
 @media (max-width: 1200px) and (min-width: 321px) {
     h3{
         font-size: 25px;
+    }
+    .footer_in{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo{
+        margin-left: -5%;
     }
 }
 
