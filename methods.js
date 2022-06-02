@@ -15,5 +15,5 @@ let obj = {
     }
 }
 
-export const mapArray = obj.mapArray
-export const getValue = obj.getValue
+module.exports = mapArray = obj.mapArray
+module.exports = getValue = obj.getValue

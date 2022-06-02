@@ -1,0 +1,148 @@
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.head{
+    color: white;
+    height: 80px;
+    background-color: black;
+}
+.head_in{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.head_in img{
+    width:50px;
+    height: 50px;
+    margin-right: 1%;
+}
+
+.premium{
+    display: flex;
+    align-items: center;
+    height: 480px;
+    background-color: rgb(33, 143, 245);
+}
+
+.premium_in{
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.premium_in a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    font-weight: 700;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center
+}
+
+.web{background-image: url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 1fr;
+    display: flex;
+    align-items: center;
+    height: 650px;
+    background-color: rgb(22, 63, 198);
+}
+
+.web_in{
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    color: rgb(91, 246, 67);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.web_in a{
+    text-decoration: none;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 190px;
+    background-color: rgb(91, 246, 67);
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 14px;
+    text-align: center;
+    color:rgb(22, 63, 198);
+}
+
+@media(max-width:1500px){
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
+    }
+}
+
+/* Max-width 1200px and Min-width 320px */
+@media (max-width: 1200px) and (min-width: 321px) {
+    h3{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:600px){
+    .premium_in a{
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 190px;
+        background-color: black;
+        font-weight: 700;
+        border-radius: 30px;
+        font-size: 10px;
+        text-align: center
+    }
+}
+
+@media (max-width: 520px) {
+    h1 {
+        font-size: 35px
+    }
+    h3{
+        font-size: 15px;
+    }
+    .premium_in a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 140px;
+        background-color: black;
+        font-weight: 500;
+        border-radius: 30px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .premium_in{
+    
+        background-image:  url('https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg');
+    }
+}
